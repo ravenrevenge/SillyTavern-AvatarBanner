@@ -1,0 +1,12 @@
+{
+  "display_name": "Avatar Banner",
+  "loading_order": 100,
+  "requires": [],
+  "optional": [],
+  "js": "index.js",
+  "css": "style.css",
+  "author": "RavenRevenge",
+  "version": "2.2",
+  "homePage": "https://github.com/ravenrevenge/SillyTavern-AvatarBanner",
+  "auto_update": false
+}

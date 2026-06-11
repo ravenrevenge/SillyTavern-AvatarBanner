@@ -1,0 +1,89 @@
+/* ============================================
+   SillyTavern Avatar Banner Extension
+   Settings Panel Styles
+   ============================================ */
+
+.avatar-banner-settings .inline-drawer-content {
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.avatar-banner-settings .checkbox_label {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.avatar-banner-settings .checkbox_label input[type="checkbox"] {
+    flex-shrink: 0;
+    margin: 0;
+}
+
+.avatar-banner-grid-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.avatar-banner-font-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.avatar-banner-font-row input[type="text"].text_pole {
+    flex: 1;
+    margin: 0;
+}
+
+.avatar-banner-inline {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.avatar-banner-inline.disabled,
+.avatar-banner-font-row.disabled,
+.avatar-banner-grid-row .disabled,
+.avatar-banner-grid-row.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.avatar-banner-grid-row input[type="text"].text_pole {
+    margin: 0;
+}
+
+#avatar_banner_button,
+#persona_banner_button {
+    cursor: pointer;
+}
+
+/* Popup styling for banner editor */
+.popup.avatar-banner-popup {
+    box-sizing: border-box !important;
+    max-width: 800px !important;
+    width: 95% !important;
+    max-height: 95dvh !important;
+}
+
+.popup.avatar-banner-popup .popup-body {
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: visible !important;
+}
+
+.popup.avatar-banner-popup .popup-content {
+    flex-grow: 1 !important;
+    min-height: 0 !important;
+    overflow-y: auto !important;
+}
+
+.popup.avatar-banner-popup .popup-controls {
+    flex-shrink: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    padding: 10px 0 !important;
+}
